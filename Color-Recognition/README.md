@@ -1,0 +1,3 @@
+# Project Description
+
+In this project, I created a device that has color recognition capabilities using an Arduino Nano and its Proximity & Color Sensors. Firstly, I collected the proper training data for my model; I trained the device to detect Orange, Green, and Blue colored items. After collecting the data, I used the TinyML library to train my models and generate loss functions for each trial. Next I converted my trained model to Tensor-Flow Lite, whcih was then encoded into an Arduino Header File. Lastly, I included this trained model header file into my final arduino testing code, in order to properly recognize the colors of objects.
