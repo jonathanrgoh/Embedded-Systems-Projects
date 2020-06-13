@@ -1,1 +1,3 @@
-#ReadMe
+# Project Description
+
+In this project, I created a game controller using an Arduino Nano, Joysticks, and Buttons. From there I read the data from each input sensor and translated that into a "character value" Right (r), Left (l), Up (u), Down (d), and randome values for the buttons as high or low. Next I used a python script to read data from the serial ports of the computer where the Arduino was connected. By doing this I was able to turn the character data from the serial port into actual keyboard actions. Lastly, I created a basic snake game to allow the user to test the keyboard inputs and to play the game with the joystick input device. 
